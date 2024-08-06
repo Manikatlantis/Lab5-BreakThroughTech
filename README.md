@@ -13,6 +13,35 @@ This lab focuses on the evaluation phase of the machine learning life cycle. You
 ### 2. Create Labeled Examples from the Data Set
 
 - **Assign Label and Features**: 
-  ```python
-  y = df['host_is_superhost']
-  X = df.drop(columns="host_is_superhost", axis=1)
+  
+### 3. Create Training and Test Data Sets
+
+- **Split Data: Create training and test sets with a 90-10 split.**
+
+### 4. Train, Test, and Evaluate a Logistic Regression Model with Default Hyperparameters
+
+- **Train and Evaluate Model**
+
+### 5. Perform Logistic Regression Model Selection Using GridSearchCV
+
+- **Grid Search: Perform grid search to find optimal hyperparameter `C`.**
+
+### 6. Train, Test, and Evaluate the Optimal Logistic Regression Model
+
+- **Train Model with Best Hyperparameters and then evaluate the model using accuracy score and confusion matrix**
+
+### 7. Plot Precision-Recall Curves for Both Models
+
+- **Compute Precision_recall Pairs and Plot Curves using Seaborn**
+
+### 8. Plot ROC Curves and Compute the AUC for Both Models
+
+- **Compute ROC and AUC and Plot ROC Curves using Seaborn**
+
+### 9. Feature Selection Using SelectKBest
+
+- **Select Top Features, Train and Evaluate with Selected Features**
+
+### 10. Make Your Model Persistent
+
+- **Save the model using Pickle, then Load and Test Model**
