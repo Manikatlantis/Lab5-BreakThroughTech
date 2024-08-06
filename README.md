@@ -1,4 +1,4 @@
-# Lab : ML Life Cycle: Evaluation and Deployment
+# Machine Learning Lab
 
 This lab focuses on the evaluation phase of the machine learning life cycle. You will perform model selection for logistic regression to solve a classification problem using the Airbnb "listings" dataset. The following tasks are covered:
 
